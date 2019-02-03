@@ -1,0 +1,461 @@
+@import "vars";
+
+@media (min-width: 1200px) {
+	.container {
+		width: 74%;
+	}
+}
+
+@media (max-width: 1558px) {
+	section.travelkind.wow.fadeIn > .container {
+		width: 100%;
+	}
+	section.travelkind .circle-box ul .step1 p {
+		width: 180px;
+		padding: 60px 13px;
+	}
+	section.travelkind .circle-box ul .step3 p {
+		width: 182px;
+		padding: 68px 13px;
+	}
+	section.travelkind .circle-box ul .step5 p {
+		width: 182px;
+		padding: 56px 13px;
+	}
+	section.travelkind .circle-box ul .step7 p {
+		width: 182px;
+		padding: 66px 13px;
+	}
+	section.joinus .joinus-box .join-box-right {
+		margin-left: 0;
+	}
+}
+
+@media (max-width: 1500px) {
+	header .container {
+		width: 90%;
+	}
+}
+
+@media (max-width: 1390px) {
+	.navbar-header {
+		float: none;
+	}
+	.navbar-toggle {
+		display: block;
+	}
+	.navbar-collapse {
+		border-top: 1px solid transparent;
+		box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+	}
+	.navbar-collapse.collapse {
+		display: none !important;
+	}
+	.navbar-nav {
+		float: none !important;
+		margin: 7.5px -15px;
+	}
+	.navbar-nav > li {
+		float: none;
+	}
+	.navbar-nav > li > a {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.navbar-collapse.collapse.in {
+		display: block !important;
+	}
+	section.last-minute button.btn.black {
+		padding: 5px 7px;
+	}
+	footer .top-footer .footer-box {
+		width: 32%;
+		height: 250px;
+	}
+	.volunteer a.navbar-brand img {
+		width: 50%;
+	}
+	header .navbar.navbar-default .navbar-brand {
+		padding: 0;
+	}
+	section.joinus .joinus-box .join-box-left .users {
+		display: block;
+		text-align: center;
+	}
+	section.joinus .joinus-box .join-box-right .users {
+		display: block;
+		text-align: center;
+	}
+}
+
+@media (max-width: 1200px) {
+	section.search .search-bg-info .search-filter {
+		width: 70%;
+	}
+	section.subscribe .subscribe-form {
+		width: 100%;
+	}
+	li.step2 {
+		display: none;
+	}
+	li.step4 {
+		display: none;
+	}
+	li.step6 {
+		display: none;
+	}
+}
+
+@media (max-width: 991px) {
+	section.subscribe input[type=text], section.subscribe select {
+		margin-bottom: 15px;
+	}
+	section.volunter-search select {
+		width: 24%;
+	}
+
+	section.volunter-search .small .interest-list li {
+		width: 100%;
+	}
+	section.volunter-search .interest-list li {
+		width: 100%;
+	}
+	section.volunter-search .interest-list .min-heigth {
+		line-height: unset;
+		padding: 15px;
+	}
+	section.joinus .joinus-box .join-box-left {
+		border-right: none;
+		width: 100%;
+		text-align: center;
+		margin-bottom: 50px;
+	}
+
+}
+
+@media (max-width: 772px) {
+	.circle-box ul li {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	section.travelkind .circle-box ul {
+		.step1 {
+			position: unset;
+		}
+		.step3 {
+			position: unset;
+		}
+		.step5 {
+			position: unset;
+		}
+		.step7 {
+			position: unset;
+		}
+	}
+	section.research {
+		padding: 30px 10px;
+	}
+
+}
+
+@media (max-width: 767px) {
+	.search-box {
+		margin-bottom: 10px;
+	}
+	section.search .search-bg-info {
+		padding: 0 20px;
+	}
+	section.search .search-bg-info .search-filter {
+		width: 100%;
+	}
+	section.search .search-bg-info {
+		position: absolute;
+		top: 10%;
+	}
+	section.search .search-bg {
+		height: 540px;
+	}
+	section.travel {
+		padding: 50px 0;
+		text-align: center;
+
+		.text-right {
+			text-align: center;
+			margin: 30px;
+		}
+	}
+	section.search .search-bg-info h3 {
+		font-size: 24px;
+	}
+	section.search .search-bg-info p {
+		font-size: 14px;
+		margin: 30px 0;
+	}
+	section.last-minute {
+		padding: 40px 0;
+	}
+	section.slider {
+		text-align: -webkit-center;
+		padding: 90px 0;
+	}
+	footer .top-footer .footer-box {
+		width: 100%;
+		height: auto;
+		text-align: center;
+	}
+	footer .bottom-footer {
+		text-align: center;
+	}
+	section.latest-article {
+		padding: 50px 0;
+	}
+	.posts {
+		.cause-box {
+			margin-bottom: 10px;
+		}
+	}
+	section.new .caption p {
+		width: 100%;
+	}
+	section.volunteer-populyar .populyar-post {
+		margin: 0 0 20px 0;
+	}
+	section.programm {
+		padding: 45px 0;
+	}
+	section.programm .caption p {
+		width: 100%;
+	}
+	section.posts .post .caption p {
+		width: 100%;
+	}
+	section.posts .feat .caption p {
+		width: 100%;
+	}
+	section.new {
+		padding: 0 0 45px 0;
+	}
+	section.included .caption p {
+		width: 100%;
+	}
+	section.included .include-box {
+		width: 90%;
+		margin: 0px auto;
+	}
+	section.profit .caption p {
+		width: 100%;
+		margin: 0 auto 30px;
+	}
+	section.profit button.btn {
+		margin: 10px 0 40px;
+	}
+	section.programming .sub-comment {
+		margin: 40px 0 40px 0px;
+	}
+	section.programming .box-wrapp .inclusions span {
+		margin: 12px;
+	}
+	section.programming .box-wrapp .included {
+		margin: 30px 41px;
+	}
+	section.programming .box-wrapp {
+		margin-bottom: 15px;
+		padding: 20px;
+	}
+	section.programming .box-wrapp .our-activties ul li {
+		display: block;
+		margin: 0;
+		margin-right: 0px;
+	}
+	.slider-box {
+		margin-bottom: 20px;
+	}
+	section.programming .included-services .slider-box button.owl-prev span {
+		background: #fff;
+		width: 56px;
+		display: block;
+		font-size: 34px;
+		height: 32px;
+		padding: 0;
+		margin: 0;
+		vertical-align: top;
+		line-height: .8;
+		font-weight: lighter;
+	}
+	section.programming .included-services .slider-box button.owl-next span {
+		background: #fff;
+		width: 56px;
+		display: block;
+		padding: 0;
+		margin: 0;
+		vertical-align: top;
+		line-height: .8;
+		font-weight: lighter;
+		font-size: 34px;
+		height: 32px;
+	}
+	section.programming .box-wrapp p {
+		font-family: Metropolis-Regular;
+		font-size: 16px;
+		margin: 0;
+		float: unset !important;
+	}
+	span.circle {
+		display: block;
+	}
+	section.programming .contact-wrapper .contact-box .btn {
+		margin: 20px 0;
+	}
+	section.programming .contact-wrapper .list-inline {
+		display: block;
+		text-align: center;
+	}
+	section.programming .contact-wrapper .contact-box {
+		margin-left: 0;
+	}
+	section.about-content {
+		padding: 70px 20px;
+		text-align: center;
+	}
+	section.what-we-do {
+		padding: 0 20px;
+		text-align: center;
+	}
+	section.what-we-do .why-join .join-text {
+		padding: 30px 20px;
+	}
+	section.what-we-do .why-join {
+		margin: 50px 0;
+
+	}
+	section.blog-content .menu-blog ul li {
+		display: block;
+		margin-right: 0px;
+		text-align: center;
+	}
+	section.blog-content .forms .img-box .bottom-text {
+		display: none;
+	}
+	section.blog-content .forms .img-box .img-text {
+		position: relative;
+		color: #000;
+	}
+	.img-box {
+		text-align: center;
+	}
+	section.blog-content .what-we-see .img-box h4 {
+		text-align: center;
+	}
+	section.blog-content .posts-most-view .img-box h4 {
+		text-align: center;
+	}
+	section.blog-content .posts-most-view .img-box .bottom-text {
+		display: none;
+	}
+	section.blog-content .posts-most-view .img-box {
+		min-height: auto;
+	}
+	section.blog-content .menu-blog {
+		padding: 15px;
+	}
+	.post-box {
+		text-align: center;
+		.pull-left {
+			float: unset !important;
+		}
+		.pull-right {
+			float: unset !important;
+		}
+	}
+	section.blog-content .forms .post-box ul li .pull-right {
+		width: 100%;
+	}
+	section.blog-content .bottom-text {
+		display: none;
+	}
+	section.signup .signup-box {
+		padding: 30px;
+		width: 90%;
+	}
+	section.joinus .joinus-box {
+		text-align: center;
+		width: 98%;
+		margin: 90px auto;
+	}
+	section.joinus .joinus-box .join-box-left .btn-box button.btn {
+		width: 100%;
+	}
+	section.joinus .joinus-box {
+		padding: 50px;
+		color: #3d3e4c;
+		text-align: center;
+		background: #fff;
+		width: 70%;
+		margin: 90px auto;
+	}
+	section.joinus .joinus-box .join-box-right .btn-box button.btn {
+		width: 100%;
+	}
+	section.joinus .joinus-box .join-box-left .lists li {
+		text-align: center;
+	}
+	section.joinus .joinus-box .join-box-right .lists li {
+		text-align: center;
+	}
+	section.information .inf-text ul li {
+		width: 100%;
+		text-align: center;
+	}
+	section.programming .video-box img {
+		height: unset;
+		width: 100%;
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 480px) {
+	section.volunter-search select {
+		width: 48%;
+		margin-bottom: 6px;
+	}
+	section.volunter-search button {
+		width: 100%;
+	}
+	section.volunter-search .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+		width: 100%;
+		margin-bottom: 4px;
+	}
+	section.volunter-search .interest-list li {
+		padding: 7px;
+		margin-bottom: 6px;
+
+		span {
+			font-size: 16px;
+		}
+	}
+	section.research {
+		.btns {
+			button {
+				width: 100%;
+				margin-bottom: 10px;
+			}
+		}
+	}
+	section.signup .signup-box {
+		padding: 30px 10px;
+		width: 98%;
+	}
+	section.joinus .joinus-box {
+		padding: 38px;
+		color: #3d3e4c;
+		text-align: center;
+		background: #fff;
+		width: 96%;
+		margin: 50px auto;
+	}
+}
+
+
+
+
